@@ -1,0 +1,25 @@
+div.pretty
+{
+    background-color: papayawhip;
+    width: 300px;
+    height: 120px;
+    border: 3px solid black;       
+}
+
+div.element
+{
+    margin: 10px;
+}
+
+span.pretty
+{
+    font-weight: bold;
+}
+
+img
+{
+    margin: 10px 10px;
+    border: 2px dotted black;
+    object-fit: contain;
+    border-radius: 10px;
+}

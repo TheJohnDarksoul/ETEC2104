@@ -2,18 +2,27 @@
 <html>
     <head>
         <title>Profile</title>
+        <meta charset=utf8>
+        <link rel=stylesheet href="/static/Profile.css">
     </head>
 
+    
+
     <body>
-        <div style="border: 1px solid blue;">
-            Name: 
-            {{name}}
-            <br>
-            Birthday: 
-            {{dateOfBirth}}
-            <br>
-            Email: 
-            {{email}}
+        <div class=pretty>
+            <img src="/static/{{pfp}}.png" style="float:inline-start">
+
+            <div class=element>
+                <span class=pretty>Name: </span> {{name}}
+            </div>
+
+            <div class=element>
+                <span class=pretty>Birthday: </span> {{dateOfBirth}}
+            </div>
+
+            <div class=element>
+                <span class=pretty>Email: </span> {{email}}
+            </div>
         </div>
     </body>
 </html>
