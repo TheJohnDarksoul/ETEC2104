@@ -16,7 +16,8 @@ def makeApp():
         ("/",Index.Handler),
         ("/quote",Quote.Handler),
         ("/fancy",TemplateTest.Handler),
-        ("/profile/.*", Profile.ProfileHandler)
+        ("/profile/.*", Profile.ProfileHandler),
+        ("/updateProfile", updateProfile.Handler)
     ]
     app = tornado.web.Application(
         endpoints,
