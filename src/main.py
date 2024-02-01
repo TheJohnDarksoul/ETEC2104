@@ -2,6 +2,7 @@ import asyncio
 import os, os.path
 import tornado.web
 import Index, Quote, TemplateTest, Profile
+import updateProfile
 
 HTMLDIR = os.path.abspath(
     os.path.join(
