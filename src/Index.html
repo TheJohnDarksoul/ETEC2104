@@ -4,8 +4,31 @@
         <meta charset="utf8">
     </head>
 
-    <body>
+    <style>
+        div.base
+        {
+            background-color: papayawhip;
+            border: 3px solid black;
+            width: 300px;
+            height:200px;
+            margin-bottom: 12px;
+            overflow-y: scroll;
+        }
+    </style>
 
+    <body>
+        <div id="roulette" class="base">
+            <table id="values">
+                <tr>
+                    <th>Number</th>
+                    <th>Color</th>
+                    <th>Odd/Even</th>
+                    <th>Pass/Fail</th>
+                </tr>
+            </table>
+        </div>
+
+        <button onclick="spinWheel()">SPEEEEEN!</button>
     </body>
 
     <script src="static/roulette.js"></script>
