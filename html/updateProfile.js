@@ -9,7 +9,6 @@ function submit()
     let oldName = document.getElementById("currentName").innerText;
 
     console.log("Info:",name,dob,email);
-    console.log("Old Name:",oldName);
 
     let J = {
         Name: name,
