@@ -26,6 +26,10 @@ function submit()
             resp.json().then((J) => 
             {
                 console.log("Server said: ", J);
+                document.getElementById("name").value = "";
+                document.getElementById("bday").value = "";
+                document.getElementById("email").value = "";
+                document.location = document.location; //Refresh the page
             });
         }).catch((err) =>
         {
